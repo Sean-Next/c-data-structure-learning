@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\c-data-structure-learning\\new\\2026-04-05-21-00\\",
+  "WorkspaceRootPath": "D:\\VSProjects\\c-data-structure-learning\\2026-04-05-21-00\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2047EA81-F6F2-4458-93B7-6BA207A6DC74}|2026-04-05-21-00.vcxproj|D:\\c-data-structure-learning\\new\\2026-04-05-21-00\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2047EA81-F6F2-4458-93B7-6BA207A6DC74}|2026-04-05-21-00.vcxproj|D:\\VSProjects\\c-data-structure-learning\\2026-04-05-21-00\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2047EA81-F6F2-4458-93B7-6BA207A6DC74}|2026-04-05-21-00.vcxproj|solutionrelative:test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2047EA81-F6F2-4458-93B7-6BA207A6DC74}|2026-04-05-21-00.vcxproj|D:\\c-data-structure-learning\\new\\2026-04-05-21-00\\SList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2047EA81-F6F2-4458-93B7-6BA207A6DC74}|2026-04-05-21-00.vcxproj|D:\\VSProjects\\c-data-structure-learning\\2026-04-05-21-00\\SList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2047EA81-F6F2-4458-93B7-6BA207A6DC74}|2026-04-05-21-00.vcxproj|solutionrelative:SList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2047EA81-F6F2-4458-93B7-6BA207A6DC74}|2026-04-05-21-00.vcxproj|D:\\c-data-structure-learning\\new\\2026-04-05-21-00\\SList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2047EA81-F6F2-4458-93B7-6BA207A6DC74}|2026-04-05-21-00.vcxproj|D:\\VSProjects\\c-data-structure-learning\\2026-04-05-21-00\\SList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2047EA81-F6F2-4458-93B7-6BA207A6DC74}|2026-04-05-21-00.vcxproj|solutionrelative:SList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "test.c",
-              "DocumentMoniker": "D:\\c-data-structure-learning\\new\\2026-04-05-21-00\\test.c",
+              "DocumentMoniker": "D:\\VSProjects\\c-data-structure-learning\\2026-04-05-21-00\\test.c",
               "RelativeDocumentMoniker": "test.c",
-              "ToolTip": "D:\\c-data-structure-learning\\new\\2026-04-05-21-00\\test.c",
+              "ToolTip": "D:\\VSProjects\\c-data-structure-learning\\2026-04-05-21-00\\test.c",
               "RelativeToolTip": "test.c",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAAABIBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAJoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-04-05T13:07:34.262Z",
               "EditorCaption": ""
@@ -41,27 +41,25 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SList.c",
-              "DocumentMoniker": "D:\\c-data-structure-learning\\new\\2026-04-05-21-00\\SList.c",
+              "DocumentMoniker": "D:\\VSProjects\\c-data-structure-learning\\2026-04-05-21-00\\SList.c",
               "RelativeDocumentMoniker": "SList.c",
-              "ToolTip": "D:\\c-data-structure-learning\\new\\2026-04-05-21-00\\SList.c",
+              "ToolTip": "D:\\VSProjects\\c-data-structure-learning\\2026-04-05-21-00\\SList.c",
               "RelativeToolTip": "SList.c",
               "ViewState": "AgIAAEgAAAAAAAAAAAAAAPkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-04-05T13:05:14.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-05T13:05:14.328Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "SList.h",
-              "DocumentMoniker": "D:\\c-data-structure-learning\\new\\2026-04-05-21-00\\SList.h",
+              "DocumentMoniker": "D:\\VSProjects\\c-data-structure-learning\\2026-04-05-21-00\\SList.h",
               "RelativeDocumentMoniker": "SList.h",
-              "ToolTip": "D:\\c-data-structure-learning\\new\\2026-04-05-21-00\\SList.h",
+              "ToolTip": "D:\\VSProjects\\c-data-structure-learning\\2026-04-05-21-00\\SList.h",
               "RelativeToolTip": "SList.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-05T13:03:23.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-05T13:03:23.715Z"
             }
           ]
         }
