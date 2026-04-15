@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VSProjects\\c-data-structure-learning\\2026-04-14-01-53\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83A2947D-B7B2-4CD0-8B12-C6A8CFD33019}|2026-04-14-01-53.vcxproj|D:\\VSProjects\\c-data-structure-learning\\2026-04-14-01-53\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83A2947D-B7B2-4CD0-8B12-C6A8CFD33019}|2026-04-14-01-53.vcxproj|solutionrelative:test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A2947D-B7B2-4CD0-8B12-C6A8CFD33019}|2026-04-14-01-53.vcxproj|D:\\VSProjects\\c-data-structure-learning\\2026-04-14-01-53\\Stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83A2947D-B7B2-4CD0-8B12-C6A8CFD33019}|2026-04-14-01-53.vcxproj|solutionrelative:Stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A2947D-B7B2-4CD0-8B12-C6A8CFD33019}|2026-04-14-01-53.vcxproj|D:\\VSProjects\\c-data-structure-learning\\2026-04-14-01-53\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83A2947D-B7B2-4CD0-8B12-C6A8CFD33019}|2026-04-14-01-53.vcxproj|solutionrelative:Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.c",
+              "DocumentMoniker": "D:\\VSProjects\\c-data-structure-learning\\2026-04-14-01-53\\test.c",
+              "RelativeDocumentMoniker": "test.c",
+              "ToolTip": "D:\\VSProjects\\c-data-structure-learning\\2026-04-14-01-53\\test.c",
+              "RelativeToolTip": "test.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-04-13T17:55:56.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Stack.c",
+              "DocumentMoniker": "D:\\VSProjects\\c-data-structure-learning\\2026-04-14-01-53\\Stack.c",
+              "RelativeDocumentMoniker": "Stack.c",
+              "ToolTip": "D:\\VSProjects\\c-data-structure-learning\\2026-04-14-01-53\\Stack.c",
+              "RelativeToolTip": "Stack.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-04-13T17:55:44.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stack.h",
+              "DocumentMoniker": "D:\\VSProjects\\c-data-structure-learning\\2026-04-14-01-53\\Stack.h",
+              "RelativeDocumentMoniker": "Stack.h",
+              "ToolTip": "D:\\VSProjects\\c-data-structure-learning\\2026-04-14-01-53\\Stack.h",
+              "RelativeToolTip": "Stack.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-13T17:55:24.053Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
