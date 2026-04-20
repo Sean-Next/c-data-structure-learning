@@ -1,7 +1,0 @@
-﻿  Queue.c
-  test.c
-D:\VSProjects\c-data-structure-learning\2026-04-16-04-44\Queue.c(4,6): error C2082: 形参“QueueInit”的重定义
-D:\VSProjects\c-data-structure-learning\2026-04-16-04-44\Queue.c(5,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
-D:\VSProjects\c-data-structure-learning\2026-04-16-04-44\Queue.c(9,2): warning C4033: “QueueFront”必须返回值
-D:\VSProjects\c-data-structure-learning\2026-04-16-04-44\test.c(3,1): error C1004: 发现意外的文件尾
-  正在生成代码...
