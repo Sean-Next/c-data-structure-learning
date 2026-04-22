@@ -179,3 +179,16 @@ void SLErase(SL* pa, int pos)
 
 	return;
 }
+
+//Ïú»ÙË³Ğò±í
+void SLDesTroy(SL* pa)
+{
+	assert(pa);
+
+	//Ïú»Ù
+	free(pa->arr);
+	pa->arr = NULL;
+	pa->size = pa->capacity = 0;
+
+	return;
+}

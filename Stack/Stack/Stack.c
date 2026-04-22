@@ -18,7 +18,6 @@ void STDesTroy(ST* ps)
 
 	//Ïú»Ù
 	free(ps->arr);
-	//³õÊ¼»¯
 	ps->arr = NULL;
 	ps->top = ps->capacity = 0;
 

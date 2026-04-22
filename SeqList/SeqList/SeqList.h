@@ -8,6 +8,7 @@
 //顺序表储存数据类型
 typedef int SLTDataType;
 
+//顺序表结构体
 typedef struct SeqList
 {
 	SLTDataType* arr;//顺序表地址
@@ -17,6 +18,8 @@ typedef struct SeqList
 
 //初始化顺序表
 void SLInit(SL* pa);
+//销毁顺序表
+void SLDesTroy(SL* pa);
 //打印顺序表所有元素
 void SLPrint(SL* pa);
 //检查并扩容顺序表容量

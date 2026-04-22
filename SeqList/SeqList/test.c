@@ -227,6 +227,28 @@ void test09()
 	return;
 }
 
+//测试销毁顺序表
+void test10()
+{
+	printf("测试10：\n");
+
+	SL s;
+	SLInit(&s);
+
+	SLPushFront(&s, 1);
+	SLPushFront(&s, 2);
+	SLPushFront(&s, 3);
+	SLPushFront(&s, 4);
+	SLPushFront(&s, 5);
+	SLPrint(&s);
+
+	SLDesTroy(&s);
+	SLPrint(&s);
+	printf("\n");
+
+	return;
+}
+
 //主函数：顺序表功能总测试
 int main()
 {
@@ -239,6 +261,7 @@ int main()
 	test07();
 	test08();
 	test09();
+	test10();
 
 	return 0;
 }
