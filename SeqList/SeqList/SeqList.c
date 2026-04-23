@@ -3,7 +3,7 @@
 //初始化顺序表
 void SLInit(SL* pa)
 {
-	assert(pa != NULL);
+	assert(pa);
 
 	pa->arr = NULL;
 	pa->size = pa->capacity = 0;
@@ -14,7 +14,7 @@ void SLInit(SL* pa)
 //打印顺序表所有元素
 void SLPrint(SL* pa)
 {
-	assert(pa != NULL);
+	assert(pa);
 
 	for (int i = 0; i < pa->size; i++)
 	{
@@ -26,6 +26,8 @@ void SLPrint(SL* pa)
 //检查并扩容顺序表容量
 void SLCheckCapacity(SL* pa)
 {
+	assert(pa);
+
 	//判断是否增容
 	if (pa->size == pa->capacity)
 	{
