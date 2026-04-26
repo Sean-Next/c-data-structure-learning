@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="SList/SList.vcxproj" />
+  <Project Path="SList.vcxproj" Id="a674b867-9dd2-42c0-813c-227549ab577a" />
 </Solution>

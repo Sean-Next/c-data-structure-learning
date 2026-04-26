@@ -4,8 +4,10 @@
 #include <stdlib.h>
 #include <assert.h>
 
+//存储数据类型---int
 typedef int SLTDataType;
 
+//不带头单向不循环链表-结构体
 typedef struct SListNode
 {
 	SLTDataType data;//数据
@@ -14,6 +16,8 @@ typedef struct SListNode
 
 //打印链表所有元素
 void SLTPrint(SLTNode* phead);
+//销毁整个链表
+void SListDestroy(SLTNode** pphead);
 //申请一个新链表节点
 SLTNode* SLTBuyNode(SLTDataType x);
 //链表尾部插入节点
@@ -34,5 +38,3 @@ void SLTInsertAfter(SLTNode* pos, SLTDataType x);
 void SLTErase(SLTNode** pphead, SLTNode* pos);
 //删除指定位置后一个节点
 void SLTEraseAfter(SLTNode* pos);
-//销毁整个链表
-void SListDestroy(SLTNode** pphead);

@@ -11,19 +11,6 @@ void STInit(ST* ps)
 	return;
 }
 
-//销毁栈
-void STDesTroy(ST* ps)
-{
-	assert(ps);
-
-	//销毁
-	free(ps->arr);
-	ps->arr = NULL;
-	ps->top = ps->capacity = 0;
-
-	return;
-}
-
 //打印栈的所有元素
 void STPrint(ST* ps)
 {
@@ -96,4 +83,17 @@ int STSize(ST* ps)
 bool STEmpty(ST* ps)
 {
 	return ps->top == 0;
+}
+
+//销毁栈
+void STDesTroy(ST* ps)
+{
+	assert(ps);
+
+	//销毁
+	free(ps->arr);
+	ps->arr = NULL;
+	ps->top = ps->capacity = 0;
+
+	return;
 }

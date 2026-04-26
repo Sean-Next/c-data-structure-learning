@@ -1,5 +1,25 @@
 #include "List.h"
 
+//打印链表所有元素
+void LTPrint(LTNode* phead)
+{
+	assert(phead);
+
+	LTNode* pcur = phead->next;
+
+	printf("Head->");
+	//遍历打印
+	while (pcur != phead)
+	{
+		printf("%d->", pcur->data);
+		pcur = pcur->next;
+	}
+	printf("Head");
+	printf("\n");
+
+	return;
+}
+
 //申请一个新链表节点
 LTNode* LTBuyNode(LTDataType x)
 {
@@ -27,24 +47,12 @@ LTNode* LTinit()
 	return phead;
 }
 
-//打印链表所有元素
-void LTPrint(LTNode* phead)
+//判断链表是否为空链表
+bool LTEmpty(LTNode* phead)
 {
 	assert(phead);
 
-	LTNode* pcur = phead->next;
-
-	printf("Head->");
-	//遍历打印
-	while (pcur != phead)
-	{
-		printf("%d->", pcur->data);
-		pcur = pcur->next;
-	}
-	printf("Head");
-	printf("\n");
-
-	return;
+	return phead->next == phead;
 }
 
 //链表尾部插入节点
@@ -74,21 +82,13 @@ void LTPushFront(LTNode* phead, LTDataType x)
 	LTNode* newnode = LTBuyNode(x);
 
 	//连接新节点
-	newnode->next = phead->prev;
+	newnode->next = phead->next;
 	newnode->prev = phead;
 
 	phead->next->prev = newnode;
 	phead->next = newnode;
 
 	return;
-}
-
-//判断链表是否为空链表
-bool LTEmpty(LTNode* phead)
-{
-	assert(phead);
-
-	return phead->next == phead;
 }
 
 //链表尾部删除节点

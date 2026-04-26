@@ -4,10 +4,10 @@
 #include <stdlib.h>
 #include <assert.h>
 
-//顺序表储存数据类型
+//存储数据类型---int
 typedef int SLTDataType;
 
-//顺序表结构体
+//顺序表-结构体
 typedef struct SeqList
 {
 	SLTDataType* arr;//顺序表地址

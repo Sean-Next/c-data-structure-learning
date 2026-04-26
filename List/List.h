@@ -5,8 +5,10 @@
 #include <assert.h>
 #include <stdbool.h>
 
+//存储数据类型---int
 typedef int LTDataType;
 
+//带头双向循环链表-结构体
 typedef struct ListNode
 {
 	LTDataType data;//数据
@@ -14,12 +16,12 @@ typedef struct ListNode
 	struct ListNode* prev;//上一节点地址
 }LTNode;
 
+//打印链表所有元素
+void LTPrint(LTNode* phead);
 //申请一个新链表节点
 LTNode* LTBuyNode(LTDataType x);
 //初始化链表
 LTNode* LTinit();
-//打印链表所有元素
-void LTPrint(LTNode* phead);
 //链表尾部插入节点
 void LTPushBack(LTNode* phead, LTDataType x);
 //链表头部插入节点

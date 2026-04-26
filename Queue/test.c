@@ -22,8 +22,11 @@ void test02()
 	QueueInit(&qu);
 
 	QueuePush(&qu, 1);
+	QueuePrint(&qu);
 	QueuePush(&qu, 2);
+	QueuePrint(&qu);
 	QueuePush(&qu, 3);
+	QueuePrint(&qu);
 	QueuePush(&qu, 4);
 	QueuePrint(&qu);
 	printf("\n");
@@ -130,7 +133,7 @@ void test07()
 
 	return;
 }
-	
+
 //测试判断队列是否为空
 void test08()
 {
@@ -146,7 +149,7 @@ void test08()
 
 	QueueDesTroy(&qu);
 	QueuePrint(&qu);
-	
+
 	if (QueueEmpty(&qu))
 	{
 		printf("队列为空\n");

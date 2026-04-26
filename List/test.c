@@ -20,8 +20,11 @@ void test02()
 	LTNode* phead = LTinit();
 
 	LTPushBack(phead, 1);
+	LTPrint(phead);
 	LTPushBack(phead, 2);
+	LTPrint(phead);
 	LTPushBack(phead, 3);
+	LTPrint(phead);
 	LTPushBack(phead, 4);
 	LTPrint(phead);
 	printf("\n");
@@ -29,10 +32,30 @@ void test02()
 	return;
 }
 
-//测试链表尾删
+//链表头部插入节点
 void test03()
 {
 	printf("测试3\n");
+
+	LTNode* phead = LTinit();
+
+	LTPushFront(phead, 1);
+	LTPrint(phead);
+	LTPushFront(phead, 2);
+	LTPrint(phead);
+	LTPushFront(phead, 3);
+	LTPrint(phead);
+	LTPushFront(phead, 4);
+	LTPrint(phead);
+	printf("\n");
+
+	return;
+}
+
+//测试链表尾删
+void test04()
+{
+	printf("测试4\n");
 
 	LTNode* phead = LTinit();
 
@@ -56,9 +79,9 @@ void test03()
 }
 
 //测试链表头删
-void test04()
+void test05()
 {
-	printf("测试4\n");
+	printf("测试5\n");
 
 	LTNode* phead = LTinit();
 
@@ -82,9 +105,9 @@ void test04()
 }
 
 //测试链表节点查找
-void test05()
+void test06()
 {
-	printf("测试5\n");
+	printf("测试6\n");
 
 	LTNode* phead = LTinit();
 
@@ -117,9 +140,9 @@ void test05()
 }
 
 //指定位置之前插入节点
-void test06()
+void test07()
 {
-	printf("测试6\n");
+	printf("测试7\n");
 
 	LTNode* phead = LTinit();
 
@@ -143,9 +166,9 @@ void test06()
 }
 
 //指定位置之后插入节点
-void test07()
+void test08()
 {
-	printf("测试7\n");
+	printf("测试8\n");
 
 	LTNode* phead = LTinit();
 
@@ -169,9 +192,9 @@ void test07()
 }
 
 //删除指定位置节点
-void test08()
+void test09()
 {
-	printf("测试8\n");
+	printf("测试9\n");
 
 	LTNode* phead = LTinit();
 
@@ -195,9 +218,9 @@ void test08()
 }
 
 //删除指定位置后一个节点
-void test09()
+void test10()
 {
-	printf("测试9\n");
+	printf("测试10\n");
 
 	LTNode* phead = LTinit();
 
@@ -219,9 +242,9 @@ void test09()
 }
 
 //销毁整个链表
-void test10()
+void test11()
 {
-	printf("测试10\n");
+	printf("测试11\n");
 
 	LTNode* phead = LTinit();
 
@@ -249,6 +272,7 @@ int main()
 	test08();
 	test09();
 	test10();
+	test11();
 
 	return 0;
 }

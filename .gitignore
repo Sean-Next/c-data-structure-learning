@@ -1,132 +1,109 @@
-# Prerequisites
-*.d
+# ==============================================
+# 【强制放行】VS2026 核心项目文件（必须保留）
+# ==============================================
+# VS2026 新版解决方案文件（.slnx）
+!*.slnx
+# VS 项目配置文件（.vcxproj）
+!*.vcxproj
+# VS 筛选器文件（控制VS内文件目录结构）
+!*.vcxproj.filters
 
-# Object files
-*.o
-*.ko
+# ==============================================
+# VS 缓存与索引文件（全部忽略）
+# ==============================================
+# VS 缓存主目录（包含浏览数据库、调试状态等）
+.vs/
+# 预编译头缓存目录
+ipch/
+# 本地历史记录目录
+.localhistory/
+# 远程机器缓存目录
+.RemoteMachineCache/
+
+# ==============================================
+# 重点屏蔽：VS2026 浏览数据库（.db文件）
+# ==============================================
+# Browse.VC.db 及相关日志文件
+*.db
+*.db-shm
+*.db-wal
+# VS 索引文件
+*.vsidx
+# SQLite 数据库文件
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# ==============================================
+# 编译输出目录（全部忽略）
+# ==============================================
+# 平台架构目录
+x64/
+x86/
+ARM/
+ARM64/
+# 配置目录
+Debug/
+Release/
+# 其他配置目录
+ARM64/Debug/
+ARM64/Release/
+
+# ==============================================
+# 编译中间文件与产物（全部忽略）
+# ==============================================
+# 目标文件
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
+*.iobj
+*.o
 *.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
+*.lib
+*.exp
 *.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
 *.exe
 *.out
 *.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
+*.so
+*.dylib
 *.pdb
+*.ipdb
+*.ilk
+*.map
+*.manifest
+*.res
+*.pch
+*.gch
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
+*.vspx
+*.idb
+*.su
+*.tlh
+*.tli
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# ==============================================
+# 用户个人配置文件（全部忽略）
+# ==============================================
+# 本地用户配置（包含个人调试设置、本地路径）
+*.user
+*.suo
+*.wsuo
+# VS 窗口布局文件
+*.vsstate
+# 团队资源文件
+*.vspscc
+*.vssscc
 
-# debug information files
-*.dwo
-/List/.vs/List.slnx/v18/Insiders/*.db
-/Queue/.vs/Queue.slnx/v18/Insiders/*.db
-/SeqList/.vs/SeqList.slnx/v18/Insiders/*.db
-/SList/.vs/SList.slnx/v18/Insiders/*.db
-/Stack/.vs/Stack.slnx/v18/Insiders/*.db
-/List/.vs/List.slnx/v18/Insiders/ipch/AutoPCH/b96d1d38c0f5a510/*.ipch
-/List/.vs/List.slnx/v18/Insiders/ipch/AutoPCH/f83b2cd43c1bcf1c/*.ipch
-/List/.vs/List.slnx/v18/Insiders/ipch/AutoPCH/f83b37d43c1be1cd/*.ipch
-/Queue/.vs/Queue.slnx/v18/Insiders/ipch/AutoPCH/2fd90d06612cf3f8/*.ipch
-/Queue/.vs/Queue.slnx/v18/Insiders/ipch/AutoPCH/2fd90806612ceb79/*.ipch
-/Queue/.vs/Queue.slnx/v18/Insiders/ipch/AutoPCH/55f38b15979ec02c/*.ipch
-/SeqList/.vs/SeqList.slnx/v18/Insiders/ipch/AutoPCH/6c957543215670b8/*.ipch
-/SeqList/.vs/SeqList.slnx/v18/Insiders/ipch/AutoPCH/6c95704321566839/*.ipch
-/SeqList/.vs/SeqList.slnx/v18/Insiders/ipch/AutoPCH/588f017166cf4e20/*.ipch
-/SList/.vs/SList.slnx/v18/Insiders/ipch/AutoPCH/3b4aacc0712e8d43/*.ipch
-/SList/.vs/SList.slnx/v18/Insiders/ipch/AutoPCH/3b4ab5c0712e9c8e/*.ipch
-/SList/.vs/SList.slnx/v18/Insiders/ipch/AutoPCH/496ce2b813209618/*.ipch
-/Stack/.vs/Stack.slnx/v18/Insiders/ipch/AutoPCH/2ff81081f95c84c2/*.ipch
-/Stack/.vs/Stack.slnx/v18/Insiders/ipch/AutoPCH/2ff81781f95c90a7/*.ipch
-/Stack/.vs/Stack.slnx/v18/Insiders/ipch/AutoPCH/a6b97b5feaf5886c/*.ipch
-/List/.vs/List.slnx/v18/*.json
-/Queue/.vs/Queue.slnx/v18/*.json
-/SeqList/.vs/SeqList.slnx/v18/*.json
-/SList/.vs/SList.slnx/v18/*.json
-/Stack/.vs/Stack.slnx/v18/*.json
-/List/List/x64/Debug/List.tlog/*.lastbuildstate
-/Queue/Queue/x64/Debug/Queue.tlog/*.lastbuildstate
-/SeqList/SeqList/x64/Debug/SeqList.tlog/*.lastbuildstate
-/SList/SList/x64/Debug/SList.tlog/*.lastbuildstate
-/Stack/Stack/x64/Debug/Stack.tlog/*.lastbuildstate
-/List/List/x64/Debug/*.log
-/Queue/Queue/x64/Debug/*.log
-/SeqList/SeqList/x64/Debug/*.log
-/SList/SList/x64/Debug/*.log
-/Stack/Stack/x64/Debug/*.log
-/List/List/x64/Debug/*.recipe
-/Queue/Queue/x64/Debug/*.recipe
-/SeqList/SeqList/x64/Debug/*.recipe
-/SList/SList/x64/Debug/*.recipe
-/Stack/Stack/x64/Debug/*.recipe
-/List/.vs/List.slnx/v18/*.suo
-/Queue/.vs/Queue.slnx/v18/*.suo
-/SeqList/.vs/SeqList.slnx/v18/*.suo
-/SList/.vs/SList.slnx/v18/*.suo
-/Stack/.vs/Stack.slnx/v18/*.suo
-/List/List/x64/Debug/List.tlog/*.tlog
-/Queue/Queue/x64/Debug/Queue.tlog/*.tlog
-/SeqList/SeqList/x64/Debug/SeqList.tlog/*.tlog
-/SList/SList/x64/Debug/SList.tlog/*.tlog
-/Stack/Stack/x64/Debug/Stack.tlog/*.tlog
-/List/List/*.user
-/Queue/Queue/*.user
-/SeqList/SeqList/*.user
-/SList/SList/*.user
-/Stack/Stack/*.user
-/List/.vs/List.slnx/FileContentIndex/*.vsidx
-/Queue/.vs/Queue.slnx/FileContentIndex/*.vsidx
-/SeqList/.vs/SeqList.slnx/FileContentIndex/*.vsidx
-/SList/.vs/SList.slnx/FileContentIndex/*.vsidx
-/Stack/.vs/Stack.slnx/FileContentIndex/*.vsidx
-/.vs/*.json
-/List/.vs/List.slnx/v18/Insiders/ipch/AutoPCH/135919c73eed4060/*.ipch
-/List/.vs/List.slnx/v18/Insiders/ipch/AutoPCH/6475593a579ad1c/*.ipch
-/Queue/.vs/Queue.slnx/v18/Insiders/ipch/AutoPCH/233338cc00151fc8/*.ipch
-/SeqList/.vs/SeqList.slnx/v18/Insiders/ipch/AutoPCH/91e86f1ae0d5f5d/*.ipch
-/SeqList/.vs/SeqList.slnx/v18/Insiders/ipch/AutoPCH/d33808af144ca9cc/*.ipch
-/.vs/c-data-structure-learning.slnx/FileContentIndex/*.vsidx
-/.vs/c-data-structure-learning.slnx/v18/*.wsuo
-/.vs/c-data-structure-learning.slnx/v18/*.json
-/.vs/c-data-structure-learning.slnx/v18/Insiders/*.db
-/Heap/.vs/Heap.slnx/FileContentIndex/*.vsidx
-/Heap/.vs/Heap.slnx/v18/*.suo
-/Heap/.vs/Heap.slnx/v18/Insiders/*.db
-/Heap/.vs/Heap.slnx/v18/Insiders/ipch/AutoPCH/f038e4c9b3cd61eb/*.ipch
-/.vs/*.sqlite
-/Heap/.vs/Heap.slnx/v18/*.json
-/Heap/Heap/*.user
+# ==============================================
+# 其他临时与系统文件（全部忽略）
+# ==============================================
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+desktop.ini

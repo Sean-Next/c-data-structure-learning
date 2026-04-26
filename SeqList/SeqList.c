@@ -21,6 +21,8 @@ void SLPrint(SL* pa)
 		printf("%d ", pa->arr[i]);
 	}
 	printf("\n");
+
+	return;
 }
 
 //检查并扩容顺序表容量

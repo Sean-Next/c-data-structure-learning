@@ -5,16 +5,17 @@
 #include <assert.h>
 #include <stdbool.h>
 
+//存储数据类型---int
 typedef int QDataType;
 
-//定义节点结构
+//节点-结构体
 typedef struct QueueNode
 {
 	QDataType data;
 	struct QueueNode* next;
 }QueueNode;
 
-//定义队列的结构
+//队列-结构体
 typedef struct Queue
 {
 	QueueNode* phead;//队列头节点

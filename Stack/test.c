@@ -11,7 +11,7 @@ void test01()
 	return;
 }
 
-//测试在栈的顶部放入元素
+//测试在栈顶部放入元素
 void test02()
 {
 	printf("测试2：\n");
@@ -19,8 +19,11 @@ void test02()
 	STInit(&st);
 
 	STPush(&st, 1);
+	STPrint(&st);
 	STPush(&st, 2);
+	STPrint(&st);
 	STPush(&st, 3);
+	STPrint(&st);
 	STPush(&st, 4);
 	STPrint(&st);
 	printf("\n");
@@ -28,7 +31,7 @@ void test02()
 	return;
 }
 
-//测试获取栈的顶部元素
+//测试获取栈顶部元素
 void test03()
 {
 	printf("测试3：\n");
@@ -46,7 +49,7 @@ void test03()
 	return;
 }
 
-//测试在栈的顶部删除元素
+//测试在栈顶部删除元素
 void test04()
 {
 	printf("测试4：\n");
@@ -68,11 +71,11 @@ void test04()
 	STPop(&st);
 	STPrint(&st);
 	printf("\n");
-	
+
 	return;
 }
 
-//测试获取栈的有效元素个数
+//测试获取栈有效元素个数
 void test05()
 {
 	printf("测试5：\n");

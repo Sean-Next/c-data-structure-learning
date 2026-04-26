@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b7687e44-a343-4021-ab64-d37212c9bcfc}</ProjectGuid>
-    <RootNamespace>Queue</RootNamespace>
+    <ProjectGuid>{a674b867-9dd2-42c0-813c-227549ab577a}</ProjectGuid>
+    <RootNamespace>SList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,10 +139,10 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Queue.h" />
+    <ClInclude Include="SList.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Queue.c" />
+    <ClCompile Include="SList.c" />
     <ClCompile Include="test.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

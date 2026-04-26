@@ -5,13 +5,14 @@
 #include <stdbool.h>
 #include <assert.h>
 
-//栈的储存数据类型
+//存储数据类型---int
 typedef int STDataType;
 
+//栈-结构体
 typedef struct Stack
 {
-	STDataType* arr;//栈的地址
-	int top;//指向栈顶位置---有效数据个数
+	STDataType* arr;//栈地址
+	int top;//有效数据个数---栈顶位置
 	int capacity;//空间大小
 }ST;
 
@@ -19,13 +20,13 @@ typedef struct Stack
 void STInit(ST* ps);
 //销毁栈
 void STDesTroy(ST* ps);
-//打印栈的所有元素
+//打印栈所有元素
 void STPrint(ST* ps);
-//在栈的顶部放入元素
+//在栈顶部放入元素
 void STPush(ST* ps, STDataType x);
-//获取栈的顶部元素
+//获取栈顶部元素
 STDataType STTop(ST* ps);
-//在栈的顶部删除元素
+//在栈顶部删除元素
 void STPop(ST* ps);
 //获取栈的有效元素个数
 int STSize(ST* ps);
